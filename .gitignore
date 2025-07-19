@@ -1,0 +1,72 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+*.egg-info/
+.Python
+build/
+dist/
+*.egg
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+myenv/
+
+# Editors and IDEs
+.vscode/        # VS Code
+.idea/          # IntelliJ IDEA / PyCharm
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store       # macOS
+.Trashes        # macOS
+Thumbs.db       # Windows
+ehthumbs.db     # Windows
+Desktop.ini     # Windows
+
+# Logs and databases
+*.log
+*.sqlite3
+*.db
+
+# Miscellaneous
+.ipynb_checkpoints/ # Jupyter notebooks checkpoints
+.pytest_cache/      # pytest cache
+.coverage           # coverage.py
+htmlcov/            # coverage.py HTML reports
+.tox/               # tox
+.mypy_cache/        # mypy
+.ruff_cache/        # ruff
+.nox/               # nox
+
+# Sensitive data / configuration
+.env                # Environment variables
+.flaskenv           # Flask environment variables
+instance/           # Flask instance folder
+config.py           # Or other config files if they contain sensitive info
+*.key
+*.pem
+
+# Data files
+*.csv
+*.xlsx
+*.json
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.hdf5
+*.h5
+
+# Jupyter Notebook specific files
+.ipynb_checkpoints/
+
+#files 
+actors/
